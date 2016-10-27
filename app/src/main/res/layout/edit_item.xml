@@ -30,15 +30,6 @@
             android:hint="@string/hint_description"
             android:inputType="text"/>
 
-        <CheckBox
-            android:id="@+id/edit_inventory"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textStyle="bold"
-            android:textSize="20sp"
-            android:textColor="@color/colorAccent"
-            android:text="@string/edit_itemtobuy"/>
-
         <Button
             android:id="@+id/save_button"
             android:layout_width="wrap_content"

@@ -2,6 +2,7 @@
     <string name="app_name">List Management</string>
     <string name="heading_item">Items</string>
     <string name="heading_toBuy">To Buy?</string>
+    <string name="heading_qty">Qty</string>
     <string name="edit_description">Item description:</string>
     <string name="hint_description">Description</string>
     <string name="edit_itemtobuy">Inventory low</string>

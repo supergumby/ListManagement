@@ -30,6 +30,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyHolder> {
     @Override
     public void onBindViewHolder(MyHolder holder, int position) {
         holder.tvItemDescription.setText(items.get(position).getItemNom());
+        holder.tvItemQty.setText(String.valueOf(items.get(position).getQty()));
         holder.cbLow.setChecked(items.get(position).getNivInventaire());
     }
 
